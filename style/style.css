@@ -1,0 +1,538 @@
+* {
+  padding: 1px;
+  margin: 0;
+}
+
+
+body {
+  background-color: grey;
+   }
+
+.border {
+  border: 1px solid black;
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 1080px) { 
+
+#grillaGatos {
+  width: 100%;
+  height: 1vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "productos"
+    "publicidad"
+    "servicios"
+    "nav"
+    "footer";
+  grid-template-rows: 100%; 
+  grid-template-columns: 100%;
+}
+
+/* Grid Areas */
+
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+  background-color: black;
+}
+section#productos {
+  grid-area: productos;     
+}
+section#servicios {
+  grid-area: servicios;     
+}
+nav {
+  grid-area: nav;
+}
+aside {
+  grid-area: publicidad;
+}
+/* --- */
+    
+ul {
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around; 
+   }
+
+
+   a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+
+header {
+    background-color: black;
+    height: 125px;
+    margin-top: -30px;
+  }
+
+.videocats1 {
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.littlecats {
+ display: flex;
+ justify-content: space-evenly;
+ flex-direction: row;
+ padding: 1em;
+
+}
+
+.catmobileno {
+  display: none;
+}
+
+.catusdom {
+ color: white;
+ font-size: 17pt;
+ text-align: center;
+ line-height: 30pt;
+}
+
+.catmini {
+ padding: 1em;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+
+
+h1 {
+    color: white;
+    margin-left: 0px;
+}
+
+h2 {
+  color: white;
+  margin-left: 0px;
+}
+
+h2.horsetext {
+  color: white;
+  margin-left: 0px;
+  margin-top: 150px;
+  margin-bottom: -100px;
+}
+
+p2 {
+    color: white;
+    
+}
+
+
+img#imagen {
+  margin-left: 450px;
+} 
+
+  figcaption {
+      color: white;
+      margin-left: 375px;
+  }
+
+
+  .lacosaFlex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+  }
+
+.randomtv {
+  margin-left: 40px;
+}
+
+
+.footer {
+margin-top: 70px;
+}
+
+.copyright {
+position: absolute;
+margin-top: 40px;
+
+}
+
+.copyright2 {
+  position: absolute;
+  margin-top: -40px;
+  
+  }
+
+
+
+
+ /* CABALLO MOBILE */
+
+ #grillaCaballo {
+  width: 100%;
+  height: 1vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "productos"
+    "footer";
+  grid-template-rows: 100%; 
+  grid-template-columns: 100%;
+}
+
+#horse {
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  .horsetext {
+    display: flex;
+    justify-content: space-evenly;
+  }  
+
+  h2.horsetext {
+
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+/* HOME MOBILE */
+
+#grillaHome {
+  width: 100%;
+  height: 1vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "productos"
+    "servicios"
+    "footer";
+  grid-template-rows: 100%; 
+  grid-template-columns: 100%;
+}
+
+
+.productosHome {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.sitetitle {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  font-size: -webkit-large;
+  letter-spacing: 4px;
+
+}
+
+.sitetitle2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: -webkit-large;
+  letter-spacing: 4px;
+
+}
+
+.random {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+  color: yellow;
+}
+
+.sitesubtitle2 {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trustme {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.sitesubtitle {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.siu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/* COSA MOBILE */
+
+#grillaCosa {
+  width: 100%;
+  height: 1vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "productos"
+    "footer";
+  grid-template-rows: 100%; 
+  grid-template-columns: 100%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Desktop */
+
+@media (min-width: 1080px) { 
+
+#grillaGatos {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav productos publicidad"
+    "nav servicios publicidad"
+    "footer footer footer";
+  grid-template-rows: 100px 2fr 1fr 75px; 
+  grid-template-columns: 15% auto 15%;
+}
+
+#grillaHome {
+  width: 100%;
+  height: 100vh;
+  display: grid;  
+  grid-template-areas:
+    "header header header"
+    "productos productos productos"
+    "servicios servicios servicios"
+    "footer footer footer";
+  grid-template-rows: 100px 2fr 1fr 75px; 
+  grid-template-columns: 15% auto 15%;
+}
+
+.sitetitle2 {
+  margin-bottom: 80px;
+  
+}
+
+.productosHome {
+  margin-bottom: 30px;
+}
+
+
+
+
+/* Grid Areas */
+
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+  background-color: black ;
+}
+section#productos {
+  grid-area: productos;     
+}
+section#servicios {
+  grid-area: servicios;     
+}
+nav {
+  grid-area: nav;
+}
+aside {
+  grid-area: publicidad;
+}
+/* --- */
+    
+ul {
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around; 
+   }
+
+
+   a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+
+header {
+    background-color: black;
+    height: 125px;
+    margin-top: -30px;
+  }
+
+.videocats1 {
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.littlecats {
+ display: flex;
+ justify-content: space-evenly;
+ flex-direction: row;
+ padding: 1em;
+
+}
+
+.catusdom {
+ color: white;
+ font-size: 17pt;
+ text-align: center;
+ line-height: 30pt;
+}
+
+.catmini {
+ padding: 1em;
+ display: flex;
+ justify-content: space-evenly;
+}
+  
+
+
+.sitetitle {
+  margin-top: 50px;
+  margin-left: 500px;
+  font-size: -webkit-xxx-large;
+  letter-spacing: 4px;
+
+}
+
+.sitetitle2 {
+  margin-top: 0px;
+  margin-left: 500px;
+  font-size: -webkit-xxx-large;
+  letter-spacing: 4px;
+
+}
+
+.random {
+  font-size: 100px;
+  color: yellow;
+}
+
+h1 {
+    color: white;
+    margin-left: 285px;
+}
+
+h2 {
+  color: white;
+  margin-left: 405px;
+}
+
+p2 {
+    color: white;
+    margin-left: 470px;
+}
+
+
+img#imagen {
+  margin-left: 450px;
+} 
+
+  figcaption {
+      color: white;
+      margin-left: 375px;
+  }
+
+
+.randomtv {
+  margin-left: 40px;
+}
+
+
+.footer {
+margin-top: 70px;
+}
+
+.copyright {
+position: absolute;
+margin-top: 40px;
+
+}
+
+.copyright2 {
+  position: absolute;
+  margin-top: -40px;
+  
+  }
+
+.siu {
+margin-left: 50px;
+}
+
+.sitesubtitle {
+margin-left: 100px;
+}
+
+.sitesubtitle2 {
+margin-left: 800px;
+margin-bottom: -70px;
+}
+
+.trustme {
+margin-left: 670px;
+margin-bottom: -370px;
+}
+
+#horse {
+margin-left: 450px;
+}
+
+.horsetext {
+margin-left: 500px;
+margin-bottom: -100px;
+margin-top: 100px;
+}
+
+
+ #grillaCosa {
+  width: 100%;
+  height: 1vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "productos"
+    "footer";
+  grid-template-rows: 100%; 
+  grid-template-columns: 100%;
+}
+
+.lacosaFlex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  
+}
+
+}
