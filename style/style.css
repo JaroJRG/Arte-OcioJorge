@@ -12,7 +12,7 @@ body {
    }
 
 .border {
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 
@@ -132,6 +132,7 @@ h2.horsetext {
   margin-bottom: -100px;
 }
 
+
 p2 {
     color: white;
     
@@ -209,6 +210,37 @@ margin-top: 40px;
     justify-content: space-evenly;
 
   }
+
+  /* HTML Prohibido MOBILE */
+
+  .prohibidotext {
+
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+
+  }
+
+  h2.prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+
+  }
+  
+  h2.prohibidotext {
+
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
 
 /* HOME MOBILE */
 
@@ -526,6 +558,40 @@ margin-left: 500px;
 margin-bottom: -100px;
 margin-top: 100px;
 }
+
+.prohibidotext {
+  margin-left: 400px;
+  margin-bottom: -100px;
+  margin-top: 150px;
+  }
+
+  .prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+
+  }
+
+  #botonrojo {
+    margin-left: 515px;
+    margin-top: 50px;
+  }
+
+  h2.prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+
+
+  .prohibidoimg {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+  }
 
 
  #grillaCosa {
