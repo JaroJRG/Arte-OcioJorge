@@ -219,6 +219,20 @@ margin-top: 40px;
     justify-content: space-evenly;
 
   }
+
+  .prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+
+  }
+
+  h2.prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+
+  }
   
   h2.prohibidotext {
 
@@ -546,10 +560,32 @@ margin-top: 100px;
 }
 
 .prohibidotext {
-  margin-left: 480px;
+  margin-left: 400px;
   margin-bottom: -100px;
   margin-top: 150px;
   }
+
+  .prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+
+  }
+
+  #botonrojo {
+    margin-left: 515px;
+    margin-top: 50px;
+  }
+
+  h2.prohibidotext2 {
+
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+
 
   .prohibidoimg {
     display: flex;
