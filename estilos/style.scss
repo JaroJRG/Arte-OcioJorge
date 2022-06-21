@@ -1,0 +1,511 @@
+@import "generales";
+@import "caballo";
+@import "gatitos";
+
+  
+  img.w-10 {
+    display: flex;
+    max-width: 200px;
+    margin: 0px -22px -100px -150px;
+  }
+  
+  
+  body {
+    background-image: linear-gradient(to bottom, blue, violet);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+     }
+  
+  
+  
+  
+  
+  
+  
+  /* Grid Areas */
+  
+  header {
+    grid-area: header;
+  }
+  footer {
+    grid-area: footer;
+    background-color: black;
+  }
+  section#productos {
+    grid-area: productos;     
+  }
+  section#servicios {
+    grid-area: servicios;     
+  }
+  nav {
+    grid-area: nav;
+  }
+  aside {
+    grid-area: publicidad;
+  }
+  /* --- */
+      
+  ul {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around; 
+     }
+  
+  
+     a {
+      color: white;
+      padding: 0 4px;
+      text-decoration: none;
+    }
+  
+  header {
+      background-color: black;
+      height: 125px;
+      margin-top: -30px;
+    }
+  
+  
+  
+  
+  
+  h1 {
+      color: white;
+      margin-left: 0px;
+  }
+  
+  h2 {
+    color: white;
+    margin-left: 0px;
+  }
+  
+  
+  
+  
+  p2 {
+      color: white;
+      
+  }
+  
+  
+  img#imagen {
+    margin-left: 450px;
+  } 
+  
+    figcaption {
+        color: white;
+        margin-left: 375px;
+    }
+  
+  
+    .lacosaFlex {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 100px;
+      
+    }
+  
+  .randomtv {
+    margin-left: 40px;
+  }
+  
+  
+  .footer {
+  margin-top: 70px;
+  }
+  
+  .copyright {
+  position: absolute;
+  margin-top: 40px;
+  
+  }
+  
+  .copyright2 {
+    position: absolute;
+    margin-top: -40px;
+  
+  
+  
+  
+   
+  
+    /* HTML Prohibido MOBILE */
+  
+    .prohibidotext {
+  
+      display: flex;
+      justify-content: space-evenly;
+  
+    }
+  
+    .prohibidotext2 {
+  
+      text-align: center;
+      margin-top: 200px;
+  
+    }
+  
+    h2.prohibidotext2 {
+  
+      text-align: center;
+      margin-top: 200px;
+  
+    }
+    
+    h2.prohibidotext {
+  
+      display: flex;
+      justify-content: space-evenly;
+  
+    }
+  
+  
+  /* HOME MOBILE */
+  
+  #grillaHome {
+    width: 100%;
+    height: 1vh;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "productos"
+      "servicios"
+      "footer";
+    grid-template-rows: 100%; 
+    grid-template-columns: 100%;
+  }
+  
+  
+  .productosHome {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .sitetitle {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: -webkit-large;
+    letter-spacing: 4px;
+  
+  }
+  
+  .sitetitle2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: -webkit-large;
+    letter-spacing: 4px;
+  
+  }
+  
+  .random {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+    color: yellow;
+    
+  }
+  
+  .sitesubtitle2 {
+  
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .trustme {
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .sitesubtitle {
+  
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .siu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  /* COSA MOBILE */
+  
+  #grillaCosa {
+    width: 100%;
+    height: 1vh;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "productos"
+      "footer";
+    grid-template-rows: 100%; 
+    grid-template-columns: 100%;
+  }
+  
+  
+  
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  /* Desktop */
+  
+  @media (min-width: 1080px) { 
+  
+  
+  
+  #grillaHome {
+    width: 100%;
+    height: 100vh;
+    display: grid;  
+    grid-template-areas:
+      "header header header"
+      "productos productos productos"
+      "servicios servicios servicios"
+      "footer footer footer";
+    grid-template-rows: 100px 2fr 1fr 75px; 
+    grid-template-columns: 15% auto 15%;
+  }
+  
+  .sitetitle2 {
+    margin-bottom: 80px;
+    
+  }
+  
+  .productosHome {
+    margin-bottom: 60px;
+      margin-left: -150px;
+  }
+  
+  
+  
+  
+  /* Grid Areas */
+  
+  header {
+    grid-area: header;
+  }
+  footer {
+    grid-area: footer;
+    background-color: black ;
+  }
+  section#productos {
+    grid-area: productos;     
+  }
+  section#servicios {
+    grid-area: servicios;     
+  }
+  nav {
+    grid-area: nav;
+  }
+  aside {
+    grid-area: publicidad;
+  }
+  /* --- */
+      
+  ul {
+    position: relative;
+    list-style-type: none;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around; 
+     }
+  
+  
+     a {
+      color: white;
+      padding: 0 100px;
+      text-decoration: none;
+    }
+  
+  header {
+      display: flex;
+      background-color: black;
+      height: 148px;
+      margin-top: -30px;
+      justify-content: center; 
+    }
+  
+    .navbar-nav > li{
+      padding-left:50px;
+      padding-right:50px;
+      
+    }
+  
+  
+    
+  
+  
+  .sitetitle {
+    margin-top: 50px;
+    margin-left: 470px;
+    font-size: -webkit-xxx-large;
+    letter-spacing: 4px;
+  
+  }
+  
+  .sitetitle2 {
+    margin-top: 0px;
+    margin-left: 470px;
+    font-size: -webkit-xxx-large;
+    letter-spacing: 4px;
+  
+  }
+  
+  .random:hover {
+    
+    transform: translatey(200px);
+    
+  }
+  
+  .random {
+    transition-property: all;
+    transition-duration: 1s;
+    font-size: 100px;
+    color: yellow;
+  }
+  
+  h1 {
+      color: white;
+      margin-left: 285px;
+  }
+  
+  h2 {
+    color: white;
+    margin-left: 405px;
+  }
+  
+  p2 {
+      color: white;
+      margin-left: 470px;
+  }
+  
+  
+  img#imagen {
+    margin-left: 450px;
+  } 
+  
+    figcaption {
+        color: white;
+        margin-left: 375px;
+    }
+  
+  
+  .randomtv {
+    margin-left: 40px;
+  }
+  
+  
+  .footer {
+  margin-top: 70px;
+  }
+  
+  .copyright {
+  position: absolute;
+  margin-top: 40px;
+  
+  }
+  
+  .copyright2 {
+    position: absolute;
+    margin-top: -40px;
+    
+    }
+  
+  .siu {
+    margin-left: -140px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+  
+  .sitesubtitle {
+    font-size: 17pt;
+    display: flex;
+    margin-left: -93px;
+  }
+  
+  .sitesubtitle2 {
+    font-size: 17pt;
+    margin-right: -202px;
+    margin-left: 614px;
+    margin-bottom: -74px;
+  }
+  
+  .trustme {
+    margin-left: 480px;
+    margin-right: -500px;
+    margin-bottom: -370px;
+  }
+  
+  
+  .prohibidotext {
+    margin-left: 400px;
+    margin-bottom: -100px;
+    margin-top: 150px;
+    }
+  
+    .prohibidotext2 {
+  
+      text-align: center;
+      margin-top: 200px;
+  
+    }
+  
+    #botonrojo {
+      margin-left: 515px;
+      margin-top: 50px;
+    }
+  
+    h2.prohibidotext2 {
+  
+      text-align: center;
+      margin-top: 200px;
+      margin-right: 50px;
+      margin-left: 50px;
+  
+    }
+  
+  
+    .prohibidoimg {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 200px;
+    }
+  
+  
+   #grillaCosa {
+    width: 100%;
+    height: 1vh;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "productos"
+      "footer";
+    grid-template-rows: 100%; 
+    grid-template-columns: 100%;
+  }
+  
+  .lacosaFlex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+  }
+  
+  .carousel-inner {
+    margin-top: -30px;
+  }
+  
+    }
