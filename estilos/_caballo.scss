@@ -5,7 +5,7 @@
 {
 
 
-    #grillaCaballo {
+  #grillaCaballo {
       width: 100%;
       height: 1vh;
       display: grid;
@@ -15,30 +15,41 @@
       "footer";
       grid-template-rows: 100%; 
       grid-template-columns: 100%;
-    }
+    
   
     #horse {
-      display: flex;
-      justify-content: space-evenly;
-    }
+    display: flex;
+    justify-content: space-evenly;
     
-    .horsetext {
+    
+      .horsetext {
       display: flex;
       justify-content: space-evenly;
-    }  
+      
   
-    .horsetext {
-      display: flex;
-      justify-content: space-evenly;
+        .horsetext {
+        display: flex;
+        justify-content: space-evenly;
+    
+
+          .horsetext {
+          color: white;
+          margin-left: 234px;
+          margin-top: 150px;
+          margin-bottom: -100px;
+
+            .horsetext {
+            color:black;
+            
+             } 
+      
+          }
+      
+      
+        }
+      } 
     }
-
-    .horsetext {
-        color: white;
-        margin-left: 234px;
-        margin-top: 150px;
-        margin-bottom: -100px;
-      }
-
+  } 
 }
 
 
@@ -52,13 +63,14 @@
 
   #horse {
     margin-left: 270px;
-  } 
+   
   
-  .horsetext {
+    .horsetext {
     margin-left: 234px;
     margin-bottom: -110px;
     margin-top: 129px;
-  }
+ 
+  }  }
 
   
 

@@ -13,30 +13,116 @@
     grid-template-rows: 100%;
     grid-template-columns: 100%;
   }
-
-  #horse {
+  #grillaCaballo #horse {
     display: flex;
     justify-content: space-evenly;
   }
-
-  .horsetext {
+  #grillaCaballo #horse .horsetext {
     display: flex;
     justify-content: space-evenly;
   }
-
-  h2.horsetext {
+  #grillaCaballo #horse .horsetext .horsetext {
     display: flex;
     justify-content: space-evenly;
   }
-
-  h2.horsetext {
+  #grillaCaballo #horse .horsetext .horsetext .horsetext {
     color: white;
-    margin-left: 0px;
+    margin-left: 234px;
     margin-top: 150px;
     margin-bottom: -100px;
   }
+  #grillaCaballo #horse .horsetext .horsetext .horsetext .horsetext {
+    color: black;
+  }
 }
-/* Desktop */
+/* DESKTOP */
+@media (min-width: 1080px) {
+  #horse {
+    margin-left: 270px;
+  }
+  #horse .horsetext {
+    margin-left: 234px;
+    margin-bottom: -110px;
+    margin-top: 129px;
+  }
+}
+/* MOBILE */
+@media (max-width: 1080px) {
+  #grillaGatos {
+    width: 100%;
+    height: 1vh;
+    display: grid;
+    grid-template-areas: "header" "productos" "publicidad" "servicios" "nav" "footer";
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+  }
+  #grillaGatos .videocats1 {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+  #grillaGatos .videocats1 .littlecats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1em;
+  }
+  #grillaGatos .videocats1 .littlecats .catmobileno {
+    display: none;
+  }
+  #grillaGatos .videocats1 .littlecats .catmobileno .catusdom {
+    color: white;
+    font-size: 17pt;
+    text-align: center;
+    line-height: 30pt;
+  }
+  #grillaGatos .videocats1 .littlecats .catmobileno .catusdom .catmini {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/* DESKTOP */
+@media (max-width: 1080px) {
+  #grillaGatos {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header" "nav productos publicidad" "nav servicios publicidad" "footer footer footer";
+    grid-template-rows: 100px 2fr 1fr 75px;
+    grid-template-columns: 15% auto 15%;
+  }
+
+  .videocats1 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .littlecats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1em;
+    margin-bottom: 124px;
+    margin-top: 130px;
+  }
+
+  .catusdom {
+    margin-top: 80px;
+    color: white;
+    font-size: 17pt;
+    text-align: center;
+    line-height: 30pt;
+  }
+
+  .catmini {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 img.w-10 {
   display: flex;
   max-width: 200px;
@@ -47,16 +133,6 @@ body {
   background-image: linear-gradient(to bottom, blue, violet);
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-/* Mobile */
-#grillaGatos {
-  width: 100%;
-  height: 1vh;
-  display: grid;
-  grid-template-areas: "header" "productos" "publicidad" "servicios" "nav" "footer";
-  grid-template-rows: 100%;
-  grid-template-columns: 100%;
 }
 
 /* Grid Areas */
@@ -107,37 +183,6 @@ header {
   margin-top: -30px;
 }
 
-.videocats1 {
-  padding: 1em;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 60px;
-}
-
-.littlecats {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  padding: 1em;
-}
-
-.catmobileno {
-  display: none;
-}
-
-.catusdom {
-  color: white;
-  font-size: 17pt;
-  text-align: center;
-  line-height: 30pt;
-}
-
-.catmini {
-  padding: 1em;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 h1 {
   color: white;
   margin-left: 0px;
@@ -146,13 +191,6 @@ h1 {
 h2 {
   color: white;
   margin-left: 0px;
-}
-
-h2.horsetext {
-  color: white;
-  margin-left: 0px;
-  margin-top: 150px;
-  margin-bottom: -100px;
 }
 
 p2 {
@@ -270,15 +308,6 @@ figcaption {
 
 /* Desktop */
 @media (min-width: 1080px) {
-  #grillaGatos {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-areas: "header header header" "nav productos publicidad" "nav servicios publicidad" "footer footer footer";
-    grid-template-rows: 100px 2fr 1fr 75px;
-    grid-template-columns: 15% auto 15%;
-  }
-
   #grillaHome {
     width: 100%;
     height: 100vh;
@@ -349,35 +378,6 @@ figcaption {
   .navbar-nav > li {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .videocats1 {
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .littlecats {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding: 1em;
-    margin-bottom: 124px;
-    margin-top: 130px;
-  }
-
-  .catusdom {
-    margin-top: 80px;
-    color: white;
-    font-size: 17pt;
-    text-align: center;
-    line-height: 30pt;
-  }
-
-  .catmini {
-    padding: 1em;
-    display: flex;
-    justify-content: space-evenly;
   }
 
   .sitetitle {
@@ -470,16 +470,6 @@ figcaption {
     margin-left: 480px;
     margin-right: -500px;
     margin-bottom: -370px;
-  }
-
-  #horse {
-    margin-left: 270px;
-  }
-
-  .horsetext {
-    margin-left: 234px;
-    margin-bottom: -110px;
-    margin-top: 129px;
   }
 
   .prohibidotext {
