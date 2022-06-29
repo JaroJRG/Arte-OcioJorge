@@ -13,26 +13,27 @@
     grid-template-rows: 100%;
     grid-template-columns: 100%;
   }
-  #grillaCaballo #horse {
+
+  #horse {
     display: flex;
     justify-content: space-evenly;
   }
-  #grillaCaballo #horse .horsetext {
+
+  .horsetext {
     display: flex;
     justify-content: space-evenly;
   }
-  #grillaCaballo #horse .horsetext .horsetext {
+
+  .horsetext {
     display: flex;
     justify-content: space-evenly;
   }
-  #grillaCaballo #horse .horsetext .horsetext .horsetext {
+
+  .horsetext {
     color: white;
     margin-left: 234px;
     margin-top: 150px;
     margin-bottom: -100px;
-  }
-  #grillaCaballo #horse .horsetext .horsetext .horsetext .horsetext {
-    color: black;
   }
 }
 /* DESKTOP */
@@ -40,7 +41,8 @@
   #horse {
     margin-left: 270px;
   }
-  #horse .horsetext {
+
+  .horsetext {
     margin-left: 234px;
     margin-bottom: -110px;
     margin-top: 129px;
@@ -56,28 +58,33 @@
     grid-template-rows: 100%;
     grid-template-columns: 100%;
   }
-  #grillaGatos .videocats1 {
+
+  .videocats1 {
     padding: 1em;
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
   }
-  #grillaGatos .videocats1 .littlecats {
+
+  .littlecats {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     padding: 1em;
   }
-  #grillaGatos .videocats1 .littlecats .catmobileno {
+
+  .catmobileno {
     display: none;
   }
-  #grillaGatos .videocats1 .littlecats .catmobileno .catusdom {
+
+  .catusdom {
     color: white;
     font-size: 17pt;
     text-align: center;
     line-height: 30pt;
   }
-  #grillaGatos .videocats1 .littlecats .catmobileno .catusdom .catmini {
+
+  .catmini {
     padding: 1em;
     display: flex;
     justify-content: space-evenly;
